@@ -82,11 +82,11 @@ footer .links>a {
     font-family: 'Times New Roman', Times, serif;
 }
 
-section:nth-of-type(even) article {
+article:nth-of-type(even) {
     background: #aaa; /* серенький, потому что ну а какой же ещё?  */
 }
 
-section:first-of-type > article > a > h2::before , section:nth-of-type(2) > article > a > h2::before  {
+article:first-of-type > a > h2::before ,  article:nth-of-type(2) > a > h2::before  {
     content: '\004E\0065\0077\0021';
     display: inline-block;
     color: red;
